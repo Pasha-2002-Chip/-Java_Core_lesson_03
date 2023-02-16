@@ -21,7 +21,7 @@ public class Circle {
 		return cirarea;
 	}
 	public double countLengthCircle(double radius) {
-		double cirlength =2*Math.PI*radius;
+		double cirlength = 2*Math.PI*radius;
 		return cirlength;
 	}
 	
