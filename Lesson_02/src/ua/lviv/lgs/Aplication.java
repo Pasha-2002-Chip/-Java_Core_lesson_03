@@ -11,8 +11,8 @@ public class Aplication {
 		System.out.println("Площа прямокутника 2 = " + rec2.countArea(rec2.getWidth(), rec2.getLength()));
 		System.out.println("Периметр прямокутника 2 = " + rec2.countPerimeter(rec2.getWidth(), rec2.getLength()));
 
-		Circle cir1 =new Circle();
-		Circle cir2 =new Circle(32.12);
+		Circle cir1 = new Circle();
+		Circle cir2 = new Circle(32.12);
 		
 		System.out.println("Довжина кола 1 = " + cir1.countLengthCircle(cir1.getRadius()));
 		System.out.println("Площа кола 2  = " + cir2.countAreaCircle(cir2.getDiameter()));
